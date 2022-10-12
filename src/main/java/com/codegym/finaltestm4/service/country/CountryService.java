@@ -3,9 +3,11 @@ package com.codegym.finaltestm4.service.country;
 import com.codegym.finaltestm4.model.Country;
 import com.codegym.finaltestm4.repo.ICountryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.Optional;
 
+@Service
 public class CountryService implements ICountryService {
 
     @Autowired
